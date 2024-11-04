@@ -1,0 +1,215 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Responsive Navbar</title>
+<!--=============== icon css link===============-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!--=============== font css link ===============-->
+<script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+ 
+<!--=============== Include Bootstrap CSS===============-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<!--=============== FOR navbar ===============-->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+<!--=============== REMIXICONS ===============-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css" crossorigin="">
+
+<!--=============== SWIPER CSS ===============-->
+<link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+ 
+
+<style>
+    .row_question_p
+  {
+    font-size: 30px;
+    font-family: poppins;
+    text-align: center;
+    line-height:36px;
+    color: black;
+    font-weight: 700;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 40px;
+    background-color: white;
+    border-color: white;
+  }
+  .row_form
+  {
+    display: flex;
+    justify-content: center;
+      
+  }
+   
+  .form-group
+  {
+     margin-top: 10px;
+     display: block;
+  }
+  .form-control
+  {
+    width: 100%;
+    height: 50px;
+    border-color: #FA6B20;
+    margin-top: 20px;
+  }
+  .form-control:hover
+  {
+    border-color: #FA6B20;
+  }
+
+   
+  .form_border_style
+  {
+    border: 3px solid #FA6B20;
+    width: 520px;
+    padding: 30px;
+    margin-bottom: 60px;
+    float: left;
+  }
+  .form_font
+  {
+    font-size: 16px;
+    font-family: poppins;
+    text-align: left;
+    line-height:27px;
+    font-weight: 400;
+    color: black;
+    float: left;
+    margin-left: 10px;
+
+  }
+  .form_star
+  {
+    color:#FA6B20 ;
+  }
+  .footer_form_textarea
+  {
+    border-color:#FA6B20;
+     width: 100%;
+  }
+  
+   
+  .input_style
+  {
+    height: 70px;
+    width: 110%;
+    font-size: 20px;
+  }
+
+  .Section3_button
+  {
+    background-color: #E31F59;
+    color: white;
+    border: 1px solid #E31F59;
+    font-family: poppins;
+    font-size: 15px;
+    line-height: 15px;
+    font-weight: bold;
+    border-radius: 50px;
+    padding: 20px 25px;  
+    margin-top: 0px;
+    display: inline-block;
+  }
+  .Section3_button:hover {
+   
+   background-color: white;
+   color: black;
+   border: 1px solid black;
+  }
+
+  .row-col
+  {
+  	background-color: #F5EEDD;
+  }
+</style>
+
+</head>
+<body>
+	<div class="row row-col">
+      <div class="col col-12 col-sm-12  col-md-12 col-lg-12 text-center">
+
+        <div class="  ">
+          <p class="row_question_p b"><span class="form_star"> Contact us! </span>Registrartion form!
+        </div>
+
+         <div class="row row_form">
+
+           <fieldset class="form_border_style ">
+            <form method="post" action="form2.php" class="form_style ">
+
+               <div class="form-group">
+                  <label class=" form_font" for="exampleFormControlInput1">Name<span class="form_star">*</span></label>
+                   <input type="name" class="form-control" id="name"name="name"><br>    
+              </div>
+
+              <div class="form-group">
+                  <label class=" form_font" for="exampleFormControlInput1">Email<span class="form_star">*</span></label>
+                  <input type="email" class="form-control" id="email" name="email"><br>    
+              </div>
+   
+
+               <div class="form-group">
+                  <label class=" form_font" for="exampleFormControlInput1">Subject<span class="form_star">*</span></label>
+                  <input type="subject" class="form-control" id="subject"name="subject"><br>          
+              </div>
+
+
+               <div class="form-group">
+                   <label class=" form_font" for="exampleFormControlSelect1">Select gender<span class="form_star">*</span></label><br>
+                     <select  class="form-control form-control_style" id="exampleFormControlSelect1">
+                      <option>Female</option>
+                      <option>Male</option>
+                     </select>
+                </div>
+
+            
+
+              <div class="form-group">
+                <label class=" form_font" for="age"> Select your age<span class="form_star">*</span></label> 
+                <br> 
+                 <input type="text" class="form-control" name="age" id="age" list="agee">
+                 <datalist id="agee">
+                   <option value="20-30" label="20-30"></option>
+                   <option value="30-40" label="30-40"></option>
+                   <option value="40-50" label="40-50"></option>
+                 </datalist><br> 
+             </div>
+
+             <div class="form-group">
+               <label class=" form_font" style="float: none;" for="exampleFormControlInput1">Contact<span class="form_star">*</span><br>
+                  <input type="tel" class="form-control" id="phone"  name="phone" minlength="9" maxlength="9" placeholder="It must be 9 digits" /> <br> 
+              </div>
+
+
+              
+                   <div class="form-group">
+              <div class="text-center S3_button"> 
+                <a href=" " type="button" class="Section3_button btn btn-light btn-lg rounded-pill">SEND MESSAGE</a>
+              </div>
+            </div>
+
+            </form>
+          </fieldset>
+   
+        </div>
+
+             
+             
+          </div>
+     
+  </div>
+</body> 
+</html>
